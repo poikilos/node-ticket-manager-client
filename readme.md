@@ -10,6 +10,11 @@ yarn
 ```
 
 ## NodeJS Module Usage
+Create a lib/config/config.js similar to the config.default.js file
+there, but do not use the default passwords! Match them to the settings
+in node-ticket-manager.
+
+
 ```javascript
 var  TicketWorker = require("node-ticket-manager").TicketWorker;
 var  TicketManager = require("node-ticket-manager").TicketManager;
