@@ -1,24 +1,36 @@
 {
-  "name": "ticketman-client",
-  "description": "the client(worker) part of https://github.com/yi/node-ticket-manager",
+  "name": "node-ticket-manager-client",
+  "description": "the client(worker) part of https://github.com/poikilos/node-ticket-manager",
   "version": "0.1.0",
-  "homepage": "https://github.com/yi/node-ticket-manager-client",
+  "homepage": "https://github.com/poikilos/node-ticket-manager-client",
   "author": {
     "name": "yi",
     "email": "yi2004@gmail.com",
     "url": "https://github.com/yi/"
   },
+  "contributors": [
+    {
+      "name": "yxdh4620",
+      "url": "https://github.com/yxdh4620"
+    },
+    {
+      "name": "Poikilos",
+      "email": "7557867+poikilos@users.noreply.github.com",
+      "url": "https://github.com/poikilos"
+    }
+
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/yi/node-ticket-manager-client.git"
+    "url": "git://github.com/poikilos/node-ticket-manager-client.git"
   },
   "bugs": {
-    "url": "https://github.com/yi/node-ticket-manager-client/issues"
+    "url": "https://github.com/poikilos/node-ticket-manager-client/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/yi/node-ticket-manager-client/blob/master/LICENSE"
+      "url": "https://github.com/poikilos/node-ticket-manager-client/blob/master/license.txt"
     }
   ],
   "main": "lib/index",
@@ -27,7 +39,7 @@
   },
   "scripts": {
     "watch": "coffee -o ./lib/ -cw ./src/",
-    "test": "DEBUG=ticketman* ./node_modules/.bin/mocha tests"
+    "test": "DEBUG=node-ticket-manager* ./node_modules/.bin/mocha tests"
   },
   "dependencies": {
     "debug": "3.1.0",

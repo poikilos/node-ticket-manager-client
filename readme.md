@@ -1,16 +1,18 @@
 # node-ticket-manager-client
-the client(worker) part of https://github.com/yi/node-ticket-manager
+This is the client (worker) part of
+<https://github.com/poikilos/node-ticket-manager>.
 
 ## Install
 
 ```
-npm install ticketman-client
+cd node-ticket-manager-client
+npm install
 ```
 
 ## NodeJS Module Usage
 ```javascript
-var  TicketWorker = require("ticketman").TicketWorker;
-var  TicketManager = require("ticketman").TicketManager;
+var  TicketWorker = require("node-ticket-manager").TicketWorker;
+var  TicketManager = require("node-ticket-manager").TicketManager;
 ```
 
 ## TicketManager API
@@ -39,16 +41,14 @@ TicketManager.issue()
   #
 ```
 
-### Evnets:
-
- * on "new ticket", listener signature: eventListener(ticket)
- * on "complete", listener signature: eventListener(ticket)
- * on "giveup", listener signature: eventListener(ticket)
+### Events:
+- on "new ticket", listener signature: `eventListener(ticket)`
+- on "complete", listener signature: `eventListener(ticket)`
+- on "giveup", listener signature: `eventListener(ticket)`
 
 ### Instance Methods
-
- * complete : ()->
- * update : (message, kind='default')->
- * giveup: (reason)->
+- complete : `()->`
+- update : `(message, kind='default')->`
+- giveup: `(reason)->`
 
 

@@ -9,7 +9,7 @@ should = require "should"
 
 config = require("../config/config")['development']
 
-debuglog = require("debug")("ticketman:test:mock_tickets_test")
+debuglog = require("debug")("node-ticket-manager:test:mock_tickets_test")
 async = require "async"
 
 ticketManager = new TicketManager("test ticket_manager", "http://localhost:3456")

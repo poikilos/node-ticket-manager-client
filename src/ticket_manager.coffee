@@ -1,7 +1,7 @@
 
 assert = require "assert"
 
-debuglog = require("debug")("ticketman:TicketManager")
+debuglog = require("debug")("node-ticket-manager:TicketManager")
 env = process.env.NODE_ENV || 'development'
 DEFAULT_BASIC_AUTH = require('./config/config')[env]['basicAuth']
 
