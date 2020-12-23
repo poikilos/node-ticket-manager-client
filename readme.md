@@ -6,7 +6,7 @@ This is the client (worker) part of
 
 ```
 cd node-ticket-manager-client
-npm install
+yarn
 ```
 
 ## NodeJS Module Usage
