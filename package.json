@@ -18,7 +18,6 @@
       "email": "7557867+poikilos@users.noreply.github.com",
       "url": "https://github.com/poikilos"
     }
-
   ],
   "repository": {
     "type": "git",
@@ -49,9 +48,9 @@
   },
   "devDependencies": {
     "async": "0.2.10",
-    "nodemon": ">=1.0.14",
     "chai": ">=1.2.0",
     "mocha": ">=1.3.2",
+    "nodemon": ">=1.0.14",
     "should": ">=1.1.0"
   },
   "keywords": [
